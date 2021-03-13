@@ -10,4 +10,5 @@ b = np.sin(a)
 
 df =pd.DataFrame({'Valor': pd.Series(a),'Seno': pd.Series(b)})
 
+print("Dataframe com Senos")
 print(df)
